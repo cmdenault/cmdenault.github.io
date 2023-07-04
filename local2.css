@@ -1,0 +1,728 @@
+body {
+    font-family: 'Andale Mono';
+    background: rgb(46, 46, 46);
+    margin: 0px;
+}
+
+h1 {
+    font-family: 'Helvetica', sans-serif;
+    margin: 5px;
+    font-size: 48px;
+
+}
+
+.pageHeads {
+    font-family: 'Helvetica', sans-serif;
+    margin: 10px; /* [upper and below margin] [right and left margin]*/
+    font-size: 58px;
+    text-align: center;
+}
+
+p {
+    margin: 1% 3%;
+}
+
+.quote {
+    text-align: center;
+
+}
+
+
+/* ------------------- Nav bar -------------------*/
+
+/* Add a black background color to the top navigation */
+body .topnav {
+    background-color: rgb(59, 59, 59);
+    overflow: hidden;
+    margin: 0px;
+    padding-bottom: 0px;
+    text-transform: capitalize;
+    
+    
+}
+
+body .topnav a { 
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+
+/* Style the links inside the navigation bar */
+nav .topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: capitalize;
+    
+}
+
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: rgb(255, 249, 231);
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: rgb(59, 59, 59);
+    color: white;
+}
+
+#logo {
+    float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Homepage Parallax 1 */
+#home1 {
+
+    background-image: url("pics/me.jpeg");
+    /* Adjust the opacity value (0.5) to your desired level */
+
+    /* Full height */
+    height: 100%; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#home1 h1 {
+    color: #865932;
+    opacity: 1;
+    font-family: 'Libre Baskerville';
+
+
+    text-align: center;
+    font-size: 132px;
+    font-style: italic;
+}
+#home1 p {
+    color: #303030;
+    opacity: 1;
+    font-family: sans-serif;
+    margin-left: 70%;
+
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#home1 #bottom-right {
+    position: absolute;
+    bottom: 60px;
+    left: 16px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: right;
+    margin-left: 2%;
+    
+}
+
+/* Homepage Parallax 2 */
+
+#home2 {
+
+    background-color: burlywood;
+    /* Adjust the opacity value (0.5) to your desired level */
+
+    /* Full height */
+    height: 100%; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    padding: 10px;
+}
+
+#home2 .tile1 {
+    max-width: 100%;
+}
+
+#home2 .tile1 h2 {
+    font-size: 48px;
+    color:rgb(46, 46, 46);
+    text-align: left;
+    margin-top: 0px;
+
+}
+
+#home2 .tile1 img{
+    width: 100%;
+    padding-bottom: 0px;
+    /*border-radius: 25px; /*  curve edges ?*/
+}
+
+#home2 h2 {
+    color: #e6e6e6;
+    opacity: 1;
+    font-family: sans-serif;
+    margin-right: 5%;
+
+    text-align: right;
+    font-size: 80px;
+    padding-bottom: 0px;
+}
+
+#home2 p {
+    color: #353535;
+    opacity: 1;
+    font-family: sans-serif;
+    margin-right: 1%;
+    padding-top: 0px;
+    
+
+    text-align: right;
+    font-size: 20px;
+}
+
+#home2 #bottom-right {
+    /*position: absolute;*/
+
+    left: 16px;
+    text-align: left;
+}
+
+
+.list {
+    list-style-type: none;
+    /*margin-right: 20px; /* Adjust the spacing between the lists */
+    white-space: nowrap;
+
+}
+
+.lists-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 5px;
+    gap: 0px;
+    justify-items: center;
+
+}
+
+.tile1 {
+    width: 70%;
+    padding: 0px;
+}
+
+
+/* ------------------ Programming ------------------ */
+
+body .programmingTop { /* inital parallax page */
+    background-image: url("pics/programming1.png");
+    background-color: rgb(252, 244, 156);
+    /* Adjust the opacity value (0.5) to your desired level */
+
+    /* Full height */
+    height: 100%; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body .programmingTop .pageHeads {
+    color:rgb(47, 54, 64);
+    position: absolute;
+    bottom: 1px;
+    right: 3%;
+    font-size: 105px;
+    font-family: 'Libre Baskerville';
+    font-style: italic;
+}
+
+body .programmingTop p { /* top right text */
+    color:rgb(47, 54, 64);
+    position: absolute;
+    font-family: Helvetica, sans-serif;
+    top: 45px;
+    right: 2px;
+    text-align: right;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+
+/* Background */
+body .programming {
+    background-color: rgb(252, 244, 156);
+    color:rgb(47, 54, 64);
+    padding-top: 0px;
+}
+
+/* Section headings */
+.programming h2{
+    font-family: Helvetica, sans-serif;   
+    margin-left: 3%;
+    font-size: 48px;
+}
+
+/* Job headings */
+.programming h3{
+    font-family: Helvetica, sans-serif;
+    margin-left: 3%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 30px;
+}
+
+/* p text for resume content */
+.programming p, .programming ul, .programming a{
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    margin-left: 3%;
+    margin-right: 3%;
+    color:rgb(34, 34, 34);
+}
+
+/* Headings */
+.programmingContainer {
+    display: flex; /* Get the 2 elements to be on opposite sides of the line*/
+    justify-content: space-between; /* Get the 2 elements to be on opposite sides of the line*/
+    font-family: Helvetica, sans-serif;
+    margin-left: 3%;
+    margin-right: 5%;
+
+  }
+  
+.programming .Pleft {
+    margin-right: auto; /* Get the 2 elements to be on opposite sides of the line*/
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+
+}
+
+.programming .Pright {
+    margin-left: auto; /* Get the 2 elements to be on opposite sides of the line*/
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    
+}
+
+
+
+button {
+    color: black;
+    padding: 15px 32px;
+    display: inline-block;
+    border: none;
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: rgb(155, 180, 134);
+    cursor: pointer;
+    margin: 1% 3%;
+    -webkit-transition: all 0.5s; /* add this line, chrome, safari, etc */
+    -moz-transition: all 0.5s; /* add this line, firefox */
+    -o-transition: all 0.5s; /* add this line, opera */
+    transition: all 0.5s; /* add this line */
+    align-items: center;
+}
+
+button:hover {
+    background-color: rgb(236, 236, 164);
+}
+
+#demo {
+    width: 900px; 
+    margin-left: auto; /* these two lines center the pdf */
+    margin-right: auto;
+    height: 1100px;
+
+}
+
+
+
+
+
+/* ------------------ Design ------------------ */
+
+body .designTop { /* inital parallax page */
+    background-color: rgb(255, 237, 193);
+    /* Adjust the opacity value (0.5) to your desired level */
+
+    /* Full height */
+    height: 100%; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+body .designTop .pageHeads {
+    color:rgb(202, 0, 30);
+    font-size: 156px;
+    text-align: center;
+    align-self: center;
+    margin-bottom: 140px;
+    font-family: 'Libre Baskerville';
+    font-style: italic;
+
+}
+
+body .designTop p { /* top right text */
+    color:rgb(202, 0, 30);
+    position: absolute;
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 120px;
+
+}
+
+
+/* next page in design */
+body .design1 {
+    background-color: rgb(255, 237, 193);
+    height: 100%;
+    padding-top: 0px;
+}
+
+body .design1 h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(202, 0, 30);
+    font-size: 26px;
+    margin: 20px;
+    margin-top: 0px;
+}
+
+body .design1 p {
+    margin-top: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(202, 0, 30);
+    font-size: 20px;
+    margin: 20px;
+}
+
+.design1 .row .column2 { /* Horizontal Layout */
+    flex: 40%;
+    max-width: 40%;
+    padding: 15px 4px;
+    justify-items: center;
+
+}
+
+
+
+
+/* ------------------ Photography ------------------ */
+
+body .photographyTop {
+    align-content: center;
+    background-color: rgb(255, 230, 175);
+    /* Adjust the opacity value (0.5) to your desired level */
+
+    /* Full height */
+    height: 100%; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(107, 61, 47);
+    
+}
+body .photographyTop a {
+    color: rgb(107, 61, 47);
+}
+
+body .photographyTop .pageHeads {
+    font-size: 148px;
+    font-family: 'Libre Baskerville';
+    font-style: italic;
+    margin-top: 0px;
+
+}
+
+
+body .photography1 a{
+    color: rgb(107, 61, 47);
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 4.5%;
+    white-space: nowrap; /* no line breaks at all*/
+
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    padding: 10px;
+    justify-items: center;
+
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+}
+
+@media screen and (min-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+
+.photographyTop #bottom-right {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+
+/* Portrait Page*/
+body .photography1 {
+    background-color: rgb(255, 230, 175);
+}
+
+body .photography1 h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 72px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    margin-top: 3px;
+    margin-left: 4.5%;
+    color:rgb(107, 61, 47);
+    padding-bottom: 2px;
+}
+
+body .photography1 p {
+    color: rgb(107, 61, 47);
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: right;
+    margin-right: 4.5%;
+    padding-top: 0px;
+}
+body .photography1 p {
+    color:rgb(107, 61, 47);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: right;
+    margin-right: 4.5%;
+    padding-top: 0px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 4px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+/* Create three equal columns that sits next to each other */
+.column {
+    flex: 30%;
+    max-width: 30%;
+    padding: 0 4px;
+    justify-items: center;
+}
+
+.column2 { /* Horizontal Layout */
+    flex: 40%;
+    max-width: 40%;
+    padding: 0 4px;
+    justify-items: center;
+
+}
+
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.column2 img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.photography1 hr {
+    border: 1px solid rgb(37, 37, 37);
+}
+
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+}
+  
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+    .column2 {
+      flex: 50%;
+      max-width: 50%;
+    }
+}
+  
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column2 {
+      flex: 100%;
+      max-width: 100%;
+    }
+}
+
+
+/* ------------------ About Me ------------------ */
+
+body .aboutmeTop {
+    align-content: center;
+    background-color: rgb(174, 194, 140);
+    /* Adjust the opacity value (0.5) to your desired level */
+
+    /* Full height */
+    height: 100%; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(47, 80, 80);
+    
+}
+
+body .aboutmeTop h6 {
+    margin-top: 0px;
+    font-size: 40px;
+    font-family: 'Libre Baskerville';
+    text-align: left;
+    color: rgb(47, 80, 80);
+    padding-right: 60px;
+    margin-left: 5%;
+}
+
+body .aboutmeTop p {
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgb(47, 80, 80);
+    padding-right: 60px;
+}
+
+body .aboutmeTop .item2 {
+    justify-items: center;
+    margin-right: 45px;
+}
+
+.grid-container2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    padding: 10px;
+    justify-items: center;
+
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.aboutmeContact {
+    align-content: center;
+    background-color: rgb(174, 194, 140);
+    justify-items: center;
+}
+.aboutmeContact h2 {
+    margin-top: 0px;
+    font-size: 96px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+    color: rgb(47, 80, 80);
+    padding-left: 40px;
+    margin-left: 30px;
+    font-weight: bold;
+}
+
+.aboutmeContact h3 {
+    margin-top: 0px;
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    color: rgb(47, 80, 80);
+    margin-left: 0px;
+    padding-left: 0px;
+    font-weight: bold;
+}
+
+.aboutmeContact p, .aboutmeContact a {
+    margin-top: 0px;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    color: rgb(47, 80, 80);
+    margin-left: 0px;
+    padding-left: 0px;
+    padding-right: 20%;
+    font-weight: bold;
+}
